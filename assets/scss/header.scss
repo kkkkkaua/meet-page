@@ -1,0 +1,63 @@
+.logo {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 4.8rem;
+}
+
+.hero-mobile_tablet {
+  padding-top: 5.4rem;
+
+  display: block;
+
+  overflow: hidden;
+   
+  img {
+      width: 41.4rem;
+      margin: 0 auto;
+    }
+}
+
+.presentation {
+  padding-inline: 2.4rem;
+
+  text-align: center;
+  
+  .presentation-description {
+    margin-top: 5rem;
+    margin-bottom: 3.2rem;
+
+    h1 {
+      font-size: 4.8rem;
+      font-weight: 900;
+      line-height: 4.8rem;
+    }
+
+    p {
+     padding-top: 2.4rem;
+
+
+     font-size: 1.6rem;
+     line-height: 2.6rem; 
+    }
+  }
+
+  .presentation-buttons {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      &:first-child {
+        background: var(--cyan-400);
+        margin-bottom: 1.6rem;
+      }
+
+      &:last-child {
+        width: 14rem;
+      }
+
+      justify-content: center;
+      font-size: 1.6rem;
+    }
+  }
+}

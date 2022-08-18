@@ -1,0 +1,49 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 4.8rem;
+}
+
+.hero-mobile_tablet {
+  padding-top: 5.4rem;
+  display: block;
+  overflow: hidden;
+}
+.hero-mobile_tablet img {
+  width: 41.4rem;
+  margin: 0 auto;
+}
+
+.presentation {
+  padding-inline: 2.4rem;
+  text-align: center;
+}
+.presentation .presentation-description {
+  margin-top: 5rem;
+  margin-bottom: 3.2rem;
+}
+.presentation .presentation-description h1 {
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 4.8rem;
+}
+.presentation .presentation-description p {
+  padding-top: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.presentation .presentation-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.presentation .presentation-buttons a {
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.presentation .presentation-buttons a:first-child {
+  background: var(--cyan-400);
+  margin-bottom: 1.6rem;
+}
+.presentation .presentation-buttons a:last-child {
+  width: 14rem;
+}/*# sourceMappingURL=header.css.map */
