@@ -1,1 +1,18 @@
-/*# sourceMappingURL=main.css.map */
+.id {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.id::before {
+  content: "";
+  display: block;
+  border-right: 1px solid var(--gray-400);
+  height: 8.4rem;
+}
+.id span {
+  border: 1px solid var(--gray-400);
+  border-radius: 50%;
+  padding-block: 1.6rem;
+  width: 5.6rem;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
